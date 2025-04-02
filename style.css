@@ -4,7 +4,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    background-image: url('images/11151535_19994923.jpg');
+    background-image: url('/images/11151535_19994923.jpg');
     background-size: cover; /* This ensures the image covers the entire screen */
     background-position: center; /* This centers the image */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -14,7 +14,7 @@ body::before {
     content: ""; /* No text content needed */
     position: absolute; /* Position it absolutely */
     top: 0; left: 0; right: 0; bottom: 0; /* Make it fill the entire viewport */
-    background-image: url('images/11151535_19994923.jpg');
+    background-image: url('/images/11151535_19994923.jpg');
     background-size: cover; /* Make the image cover the entire screen */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
